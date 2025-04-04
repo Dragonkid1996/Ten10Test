@@ -1,9 +1,12 @@
 ## Ten10 Technical Test - Interest Calculator App
 
-This is my submission for the technical assessment part of Ten10's interview process
+This is my submission for the technical assessment part of Ten10's interview process.
+
+It has been written in Java using Selenium to test the UI elements of the application.
 
 ### Pre-requisites
  - I have only included the ChromeDriver setup, so you will need the latest version of [Google Chrome](https://www.google.com/intl/en_uk/chrome/dr/download/)
+ - The framework was written using Java JDK 15 and Gradle version 7.1, please ensure you are using the same versions
  - This is a Gradle Project, so you may need to import the Gradle Project before attempting to run the tests
  - You will need to input your username and password into the relevant fields in the loginToPage test, or comment the BeforeEach in the test class before running
    - ![Login and Email Here](src/main/resources/LoginExample.png)
